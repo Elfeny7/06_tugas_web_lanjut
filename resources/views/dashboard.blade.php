@@ -31,7 +31,7 @@
         <div class="card card-solid">
             <div class="card-body">
                 <div class="row">
-                    <h1 id="selamatdatang">Selamat Datang</h1>
+                    <h1 id="selamatdatang">{{$user->name}}</h1>
                 </div>
                 <div class="row mt-4">
                     <nav class="w-100">
